@@ -83,7 +83,7 @@ function html(cb) {
 
 // CSS 
 function css(cb) {
-    return src(srcPath + 'assets/scss/main.scss') // если порядок файлов не важен, то: return src(path.src.css, {base: srcPath + 'assets/scss/'})
+    return src(srcPath + 'assets/scss/style.scss') // если порядок файлов не важен, то: return src(path.src.css, {base: srcPath + 'assets/scss/'})
         .pipe(sourcemaps.init())
         .pipe(plumber({
             errorHandler : function(err) {
@@ -199,7 +199,7 @@ function jsWatch(cb) {
 
 // Images 
 function images(cb) {
-    return src(path.src.assets.images)
+    return src(path.src.images)
         .pipe(imagemin([
             imagemin.gifsicle({interlaced: true}),
             imagemin.mozjpeg({quality: 95, progressive: true}),

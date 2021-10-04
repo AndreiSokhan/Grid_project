@@ -362,3 +362,16 @@ template {
 [hidden] {
     display: none;
 }
+
+.container {
+    max-width: 1720px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.menu__list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
