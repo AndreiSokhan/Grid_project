@@ -363,6 +363,12 @@ template {
     display: none;
 }
 
+@font-face {
+    font-family: 'Larsseit';
+  src: url("../fonts/Larsseit.ttf");
+  font-display: swap;
+}
+
 .container {
     max-width: 1081px;
     margin: 0 auto;
