@@ -364,12 +364,26 @@ template {
 }
 
 .container {
-    max-width: 1720px;
+    max-width: 1081px;
     margin: 0 auto;
     padding: 10px;
 }
 
+.header__logo {
+    color: #62D0DF;
+}
+
 .menu__list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.header__btn {
+    font-family: Larsseit;
+    font-size: 14px;
+    line-height: 16px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;

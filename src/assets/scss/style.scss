@@ -1,5 +1,7 @@
 @import './base/normalize';
 
+@import './fonts';
+
 
 .header {
 }
@@ -11,6 +13,7 @@
 .header__top {
 }
 .header__logo {
+   color: #62D0DF;
 }
 .header__menu {
 }
@@ -26,6 +29,11 @@
 .menu__link {
 }
 .header__btn {
+   font-family: Larsseit;
+   font-size: 14px;
+   line-height: 16px;
+   display: flex;
+   align-items: center;
 }
 .btn {
 }
