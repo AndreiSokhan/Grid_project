@@ -20,7 +20,6 @@ body {
   margin: 0; }
 
 * {
-  border: 1px solid red;
   box-sizing: border-box; }
 
 * {
@@ -49,10 +48,6 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0; }
-
 /* Grouping content
    ========================================================================== */
 /**
@@ -328,17 +323,23 @@ template {
   src: url("../fonts/Larsseit.ttf");
   font-display: swap; }
 
-.container {
-  max-width: 1081px;
+body {
+  font-family: Muli-Regular, sans-serif;
+  color: black; }
+
+.header .container {
+  max-width: 1062px;
   margin: 0 auto;
-  padding: 10px; }
+  padding: 0 10px; }
+
+.header__top {
+  margin: 28px 0 186px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
 
 .header__logo {
   color: #62D0DF; }
-
-.menu__list {
-  display: flex;
-  align-items: center; }
 
 .header__btn {
   font-family: Larsseit;
@@ -346,5 +347,24 @@ template {
   line-height: 16px;
   display: flex;
   align-items: center; }
+
+.menu__list {
+  min-width: 234px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.btn {
+  height: 50px;
+  width: 150px;
+  background-color: #62D0DF;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px; }
 
 /*# sourceMappingURL=style.min.css.map */

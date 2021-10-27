@@ -1,0 +1,29 @@
+.header {
+
+   .container {
+      max-width: 1062px;
+      margin: 0 auto;
+      padding: 0 10px;
+   }
+
+   &__top {
+      margin: 28px 0 186px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+
+
+   &__logo {
+      color: #62D0DF;
+   }
+
+   &__btn {
+      font-family: Larsseit;
+      font-size: 14px;
+      line-height: 16px;
+      display: flex;
+      align-items: center;
+   }
+
+}

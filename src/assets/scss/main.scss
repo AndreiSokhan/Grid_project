@@ -1,0 +1,18 @@
+@import './abstracts/vars';
+@import './abstracts/mixins';
+
+@import './base/normalize';
+
+@import './fonts';
+
+body {
+	font-family: Muli-Regular, sans-serif;
+	color: rgb(0, 0, 0);
+}
+
+//header
+@import './header';
+@import './menu';
+@import './btn';
+
+

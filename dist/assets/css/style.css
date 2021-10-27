@@ -22,7 +22,6 @@ body {
 }
 
 * {
-    border: 1px solid red;
     box-sizing: border-box;
 }
 
@@ -369,21 +368,22 @@ template {
   font-display: swap;
 }
 
-.container {
-    max-width: 1081px;
+body {
+    font-family: Muli-Regular, sans-serif;
+    color: #f2f2f2ff;
+}
+
+.header .container {
+    max-width: 1082px;
     margin: 0 auto;
-    padding: 10px;
+}
+
+.header__top {
+    margin-top: 28px;
 }
 
 .header__logo {
     color: #62D0DF;
-}
-
-.menu__list {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
 }
 
 .header__btn {
