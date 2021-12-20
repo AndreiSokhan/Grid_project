@@ -56,11 +56,6 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-}
-
 /* Grouping content
    ========================================================================== */
 /**
@@ -370,16 +365,23 @@ template {
 
 body {
     font-family: Muli-Regular, sans-serif;
-    color: #f2f2f2ff;
+    color: black;
 }
 
 .header .container {
-    max-width: 1082px;
+    max-width: 1062px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 .header__top {
-    margin-top: 28px;
+    margin: 28px 0 186px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 .header__logo {
@@ -394,4 +396,70 @@ body {
     display: flex;
     -ms-flex-align: center;
     align-items: center;
+}
+
+.menu__list {
+    min-width: 234px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.btn {
+    height: 50px;
+    width: 150px;
+    background-color: #62D0DF;
+    border-radius: 25px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.why .container {
+    max-width: 1062px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.why__wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #62D0DF;
+}
+
+.why__title {
+    font-family: Larsseit;
+    font-size: 36px;
+    line-height: 27px;
+    letter-spacing: -0.006em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.why__text {
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.006em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.why__span {
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.006em;
+    text-align: left;
+    color: #FFFFFF;
 }
