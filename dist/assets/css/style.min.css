@@ -437,6 +437,159 @@ body {
   text-align: center;
   color: #22356F80; }
 
+.exercises__wrapper {
+  display: flex;
+  padding-bottom: 120px; }
+
+.exercises__item {
+  height: 360px;
+  flex-basis: 25%; }
+
+.exercises__title {
+  max-width: 280px;
+  padding: 95px 0 0 78px;
+  font-family: Larsseit;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.0006em;
+  text-align: left;
+  color: #fff;
+  position: relative; }
+  .exercises__title::before {
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    height: 2px;
+    width: 255px;
+    position: absolute;
+    top: 72px;
+    left: 53px; }
+  .exercises__title::after {
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    background-color: #E9B730;
+    border-radius: 50%;
+    height: 9px;
+    width: 9px;
+    position: absolute;
+    top: 108px;
+    left: 54px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%; }
+  .exercises__title:hover {
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03); }
+
+.exercises__item--pink {
+  background-color: #FFE2DE; }
+
+.exercises__item--green {
+  background-color: #C4E769; }
+
+.exercises__item--light-blue {
+  background-color: #62D0DF; }
+
+.exercises__item--blue {
+  background-color: #0052C1; }
+
+.health__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; }
+
+.health__item {
+  height: 480px; }
+
+.health__title {
+  padding: 126px 0 0 104px;
+  font-family: Larsseit;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.006em;
+  text-align: left;
+  color: #fff;
+  position: relative; }
+  .health__title::before {
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    height: 2px;
+    width: 340px;
+    position: absolute;
+    top: 96px;
+    left: 70px; }
+  .health__title::after {
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    background-color: #E9B730;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    top: 138px;
+    left: 74px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%; }
+
+.health__item--dark-blue {
+  background-color: #22356F; }
+
+.health__item--blue {
+  background-color: #0052C1; }
+
+.health__item--pic {
+  background-image: url(./../images/joanna-kosinska-340748.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.health__item--aqua {
+  background-color: #62D0DF; }
+
+.health__item--purpl {
+  background-color: #DEE1FF; }
+
+.health__item--violet {
+  background-color: #8F00FF; }
+
+.lifestyle__wrapper {
+  padding: 22px 0 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; }
+
+.lifestyle__item {
+  height: 240px;
+  padding-left: 105px; }
+
+.lifestyle__title {
+  padding-top: 55px;
+  margin-bottom: 28px;
+  font-family: Larsseit;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #22356F; }
+
+.lifestyle__text {
+  max-width: 298px;
+  font-family: Larsseit;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #22356F80; }
+
 .footer__bottom {
   background-color: #62D0DF; }
   .footer__bottom .container {

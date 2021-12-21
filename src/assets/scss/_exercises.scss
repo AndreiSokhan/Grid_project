@@ -1,0 +1,76 @@
+.exercises {
+
+   &__wrapper {
+      display: flex;
+      padding-bottom: 120px;
+   }
+
+   &__item {
+      height: 360px;
+      flex-basis: 25%;
+   }
+
+   &__title {
+      max-width: 280px;
+      padding: 95px 0 0 78px;
+      font-family: Larsseit;
+      font-size: 32px;
+      line-height: 34px;
+      letter-spacing: -0.0006em;
+      text-align: left;
+      color: #fff;
+      position: relative;
+
+      &::before {
+         content: "";
+         display: block;
+         background-repeat: no-repeat;
+         background-color: #fff;
+         height: 2px;
+         width: 255px;
+         position: absolute;
+         top: 72px;
+         left: 53px;
+      }
+      &::after {
+         content: "";
+         display: block;
+         background-repeat: no-repeat;
+         background-color: #E9B730;
+         border-radius: 50%;
+         height: 9px;
+         width: 9px;
+         position: absolute;
+         top: 108px;
+         left: 54px;
+         -webkit-border-radius: 50%;
+         -moz-border-radius: 50%;
+         -ms-border-radius: 50%;
+         -o-border-radius: 50%;
+         }
+
+      &:hover{
+         transform: scale(1.03);
+         -webkit-transform: scale(1.03);
+         -moz-transform: scale(1.03);
+         -ms-transform: scale(1.03);
+         -o-transform: scale(1.03);
+}
+   }
+
+   &__item--pink {
+      background-color: #FFE2DE;
+   }
+
+   &__item--green {
+      background-color: #C4E769;
+   }
+
+   &__item--light-blue {
+      background-color: #62D0DF;
+   }
+
+   &__item--blue {
+      background-color: #0052C1;
+   }
+}

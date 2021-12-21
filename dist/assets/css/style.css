@@ -478,3 +478,53 @@ body {
     object-fit: cover;
     display: block;
 }
+
+.about__wrapper {
+    padding: 150px 106px 24px;
+    position: relative;
+}
+
+.about__link {
+    position: absolute;
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #22356F;
+}
+
+.about__text {
+    max-width: 590px;
+    font-family: Larsseit;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #22356F;
+    margin: 0 auto;
+    margin-bottom: 76px;
+}
+
+.about__sign {
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #22356F80;
+}
+
+.footer__bottom {
+    background-color: #62D0DF;
+}
+
+.footer__bottom .container {
+    max-width: 1062px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.footer__bottom__signature {
+    color: #FFFFFF;
+}
