@@ -425,19 +425,24 @@ body {
     -o-border-radius: 25px;
 }
 
-.why .container {
-    max-width: 1062px;
-    margin: 0 auto;
-    padding: 0 10px;
+.why {
+    background-color: #62D0DF;
 }
 
 .why__wrapper {
     display: -ms-flexbox;
     display: flex;
-    background-color: #62D0DF;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-left: 180px;
+}
+
+.why__content {
+    max-width: 524px;
 }
 
 .why__title {
+    margin: 150px 0 75px;
     font-family: Larsseit;
     font-size: 36px;
     line-height: 27px;
@@ -447,9 +452,10 @@ body {
 }
 
 .why__text {
+    max-width: 555px;
     font-family: Larsseit;
-    font-size: 16px;
-    line-height: 28px;
+    font-size: 20px;
+    line-height: 30px;
     letter-spacing: -0.006em;
     text-align: left;
     color: #FFFFFF;
@@ -457,9 +463,18 @@ body {
 
 .why__span {
     font-family: Larsseit;
-    font-size: 16px;
-    line-height: 28px;
+    font-size: 24px;
+    line-height: 35px;
     letter-spacing: -0.006em;
     text-align: left;
     color: #FFFFFF;
+}
+
+.why__img {
+    max-width: 524px;
+    height: 604px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: block;
 }
