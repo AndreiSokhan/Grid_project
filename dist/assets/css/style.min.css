@@ -590,13 +590,139 @@ body {
   text-align: left;
   color: #22356F80; }
 
+.mdd__wrapper {
+  display: grid;
+  grid-template-columns: 480px 1fr; }
+
+.mdd__content {
+  padding: 102px 0 40px 106px; }
+
+.mdd__subtitle {
+  font-family: Larsseit;
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #22356F;
+  margin-bottom: 225px; }
+
+.mdd__text {
+  max-width: 676px;
+  font-family: Larsseit;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 53px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #22356F;
+  margin-bottom: 152px; }
+
+.mdd__span {
+  color: #6CD3E1; }
+
+.mdd__link {
+  font-family: Larsseit;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #FAB63E; }
+
+.ready__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 480px; }
+
+.ready__content {
+  background-color: #22356F;
+  padding: 104px 0 42px 180px; }
+
+.ready__link {
+  margin-bottom: 200px;
+  font-family: Larsseit;
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #fff; }
+
+.ready__title {
+  margin-bottom: 65px;
+  font-family: Larsseit;
+  font-size: 64px;
+  line-height: 94px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #fff; }
+
+.ready__text {
+  max-width: 580px;
+  margin-bottom: 80px;
+  font-family: Larsseit;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: -0.005em;
+  text-align: left;
+  color: #fff; }
+
+.ready__link-btn {
+  font-family: Larsseit;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #62D0DF; }
+
+.footer__top {
+  display: flex; }
+
+.footer__information {
+  padding: 98px 70px 100px;
+  display: flex; }
+
+.footer__item {
+  max-width: 200px;
+  margin-right: 40px; }
+
+.footer__title {
+  margin-bottom: 54px;
+  font-family: Larsseit;
+  font-size: 14px;
+  line-height: 11px;
+  letter-spacing: -0.006em;
+  text-align: left;
+  color: #22356F; }
+
+.footer__text {
+  font-family: Larsseit;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: -0.006em;
+  text-align: left;
+  color: #22356F80; }
+
+.footer__contact {
+  font-family: Larsseit;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: -0.006em;
+  text-align: left;
+  color: #22356F80; }
+
 .footer__bottom {
+  height: 80px;
   background-color: #62D0DF; }
   .footer__bottom .container {
     max-width: 1062px;
     margin: 0 auto;
     padding: 0 10px; }
-  .footer__bottom__signature {
-    color: #FFFFFF; }
+
+.footer__signature {
+  font-family: Larsseit;
+  font-size: 14px;
+  line-height: 11px;
+  letter-spacing: -0.006em;
+  text-align: left;
+  color: #FFF; }
 
 /*# sourceMappingURL=style.min.css.map */

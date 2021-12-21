@@ -1,0 +1,47 @@
+.mdd {
+
+   &__wrapper {
+      display: grid;
+      grid-template-columns: 480px 1fr;
+   }
+
+   &__content {
+      padding: 102px 0 40px 106px;
+   }
+
+   &__subtitle {
+      font-family: Larsseit;
+      font-size: 16px;
+      line-height: 12px;
+      letter-spacing: 0.06em;
+      text-align: left;
+      color: #22356F;
+      margin-bottom: 225px;
+   }
+
+   &__text {
+      max-width: 676px;
+      font-family: Larsseit;
+      font-size: 36px;
+      font-weight: bold;
+      line-height: 53px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #22356F;
+      margin-bottom: 152px;
+   }
+
+   &__span {
+      color: #6CD3E1;
+   }
+
+   &__link {
+      font-family: Larsseit;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 23px;
+      letter-spacing: 0.1em;
+      text-align: left;
+      color: #FAB63E;
+   }
+}

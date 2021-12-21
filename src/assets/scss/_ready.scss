@@ -1,0 +1,52 @@
+.ready {
+
+   &__wrapper {
+      display: grid;
+      grid-template-columns: 1fr 480px;
+   }
+
+   &__content {
+      background-color: #22356F;
+      padding: 104px 0 42px 180px;
+   }
+
+   &__link {
+      margin-bottom: 200px;
+      font-family: Larsseit;
+      font-size: 16px;
+      line-height: 12px;
+      letter-spacing: 0.06em;
+      text-align: left;
+      color: #fff;
+   }
+
+   &__title {
+      margin-bottom: 65px;
+      font-family: Larsseit;
+      font-size: 64px;
+      line-height: 94px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #fff;
+   }
+
+   &__text {
+      max-width: 580px;
+      margin-bottom: 80px;
+      font-family: Larsseit;
+      font-size: 36px;
+      line-height: 53px;
+      letter-spacing: -0.005em;
+      text-align: left;
+      color: #fff;
+   }
+
+   &__link-btn {
+      font-family: Larsseit;
+      font-size: 16px;
+      line-height: 23px;
+      letter-spacing: 0.1em;
+      text-align: left;
+      color: #62D0DF;
+   }
+}

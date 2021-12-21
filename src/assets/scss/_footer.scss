@@ -1,8 +1,55 @@
 .footer {
 
+   &__top {
+      display: flex;
+   }
+
+   &__information {
+      padding: 98px 70px 100px;
+      display: flex;
+   }
+
+   &__item {
+      max-width: 200px;
+      margin-right: 40px;
+   }
+
+   
+   &__title {
+      margin-bottom: 54px;
+      font-family: Larsseit;
+      font-size: 14px;
+      line-height: 11px;
+      letter-spacing: -0.006em;
+      text-align: left;
+      color: #22356F;
+   }
+
+   &__text {
+      font-family: Larsseit;
+      font-size: 14px;
+      line-height: 23px;
+      letter-spacing: -0.006em;
+      text-align: left;
+      color: #22356F80;
+   }
+
+   &__contact {
+      font-family: Larsseit;
+      font-size: 14px;
+      line-height: 23px;
+      letter-spacing: -0.006em;
+      text-align: left;
+      color: #22356F80;
+   }
+
+   &__mail {
+      
+   }
 
 
    &__bottom {
+      height: 80px;
       background-color: #62D0DF;
 
       .container {
@@ -10,8 +57,14 @@
          margin: 0 auto;
          padding: 0 10px;
       }
-      &__signature {
-         color: #FFFFFF;
-      }
+   }
+
+   &__signature {
+      font-family: Larsseit;
+      font-size: 14px;
+      line-height: 11px;
+      letter-spacing: -0.006em;
+      text-align: left;
+      color: #FFF;
    }
 }
