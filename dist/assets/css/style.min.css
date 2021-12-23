@@ -348,6 +348,28 @@ body {
   display: flex;
   align-items: center; }
 
+.header__title {
+  max-width: 484px;
+  margin-bottom: 50px;
+  font-family: Larsseit;
+  font-size: 48px;
+  line-height: 53px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  color: #22356F; }
+
+.header__text {
+  max-width: 470px;
+  font-family: Larsseit;
+  font-size: 24px;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #22356F; }
+
+.header__wrapper {
+  display: flex; }
+
 .menu__list {
   min-width: 234px;
   display: flex;

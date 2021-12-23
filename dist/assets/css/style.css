@@ -594,7 +594,7 @@ body {
 
 .health__wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .health__item {
@@ -671,7 +671,7 @@ body {
 .lifestyle__wrapper {
     padding: 22px 0 40px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .lifestyle__item {
