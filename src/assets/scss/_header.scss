@@ -26,6 +26,18 @@
       align-items: center;
    }
 
+   &__btn--top {
+      letter-spacing: 0em;
+      text-align: left;
+      border-radius: 25px;
+      background-color: #62D0DF;
+      color: #fff;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      -ms-border-radius: 25px;
+      -o-border-radius: 25px;
+   }
+
    &__title {
       max-width: 484px;
       margin-bottom: 50px;
@@ -38,6 +50,7 @@
    }
 
    &__text {
+      margin-bottom: 64px;
       max-width: 470px;
       font-family: Larsseit;
       font-size: 24px;
@@ -49,5 +62,43 @@
 
    &__wrapper {
       display: flex;
+   }
+
+   &__img {
+      max-width: 1126px;
+      height: 720px;
+      width: 100%;
+      object-fit: cover;
+      display: block;
+   }
+
+   &__btn-box {
+      width: 338px;
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__btn--colored {
+      background-color: #F9B640;
+      font-family: Larsseit;
+      font-size: 16px;
+      line-height: 23px;
+      letter-spacing: 0.1em;
+      text-align: left;
+      color: #fff;
+      border-radius: 1px;
+      -webkit-border-radius: 1px;
+      -moz-border-radius: 1px;
+      -ms-border-radius: 1px;
+      -o-border-radius: 1px;
+   }
+
+   &__btn--transparent {
+      font-family: Larsseit;
+      font-size: 16px;
+      line-height: 23px;
+      letter-spacing: 0.1em;
+      text-align: left;
+      color: #F9B640;
    }
 }
