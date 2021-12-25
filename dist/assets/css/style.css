@@ -398,6 +398,18 @@ body {
     align-items: center;
 }
 
+.header__btn--top {
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 25px;
+    background-color: #62D0DF;
+    color: #fff;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
 .header__title {
     max-width: 484px;
     margin-bottom: 50px;
@@ -410,6 +422,7 @@ body {
 }
 
 .header__text {
+    margin-bottom: 64px;
     max-width: 470px;
     font-family: Larsseit;
     font-size: 24px;
@@ -424,6 +437,47 @@ body {
     display: flex;
 }
 
+.header__img {
+    max-width: 1126px;
+    height: 720px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: block;
+}
+
+.header__btn-box {
+    width: 338px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.header__btn--colored {
+    background-color: #F9B640;
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #fff;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}
+
+.header__btn--transparent {
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #F9B640;
+}
+
 .menu__list {
     min-width: 234px;
     display: -ms-flexbox;
@@ -434,21 +488,24 @@ body {
     justify-content: space-between;
 }
 
+.menu__item {
+    font-family: Larsseit;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #22356F;
+}
+
 .btn {
     height: 50px;
     width: 150px;
-    background-color: #62D0DF;
-    border-radius: 25px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
     justify-content: center;
     -ms-flex-align: center;
     align-items: center;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
 }
 
 .why {
