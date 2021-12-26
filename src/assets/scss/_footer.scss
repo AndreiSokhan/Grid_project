@@ -26,6 +26,7 @@
    }
 
    &__text {
+      margin-bottom: 35px;
       font-family: Larsseit;
       font-size: 14px;
       line-height: 23px;
@@ -34,7 +35,10 @@
       color: #22356F80;
    }
 
-   &__contact {
+   &__working {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 8px;
       font-family: Larsseit;
       font-size: 14px;
       line-height: 23px;
@@ -43,20 +47,22 @@
       color: #22356F80;
    }
 
-   &__mail {
-      
+   &__phone-link {
+      margin-bottom: 10px;
+      font-family: Larsseit;
+      font-size: 14px;
+      line-height: 23px;
+      letter-spacing: -0.006em;
+      text-align: left;
+      color: #22356F80;
    }
-
 
    &__bottom {
       height: 80px;
       background-color: #62D0DF;
-
-      .container {
-         max-width: 1062px;
-         margin: 0 auto;
-         padding: 0 10px;
-      }
+      display: flex;
+      align-items: center;
+      padding-left: 180px;
    }
 
    &__signature {
@@ -64,7 +70,6 @@
       font-size: 14px;
       line-height: 11px;
       letter-spacing: -0.006em;
-      text-align: left;
       color: #FFF;
    }
 }
