@@ -327,100 +327,94 @@ body {
   font-family: Muli-Regular, sans-serif;
   color: black; }
 
-.header .container {
-  max-width: 1062px;
-  margin: 0 auto;
-  padding: 0 10px; }
-
-.header__top {
-  margin: 28px 0 186px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between; }
-
-.header__logo {
-  font-family: Larsseit;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 27px;
-  letter-spacing: -0.035em;
-  text-align: left;
-  color: #62D0DF; }
-
-.header__btn {
-  font-family: Larsseit;
-  font-size: 14px;
-  line-height: 16px;
-  display: flex;
-  align-items: center; }
-
-.header__btn--top {
-  letter-spacing: 0em;
-  text-align: left;
-  border-radius: 25px;
-  background-color: #62D0DF;
-  color: #fff;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  -ms-border-radius: 25px;
-  -o-border-radius: 25px; }
-
-.header__title {
-  max-width: 484px;
-  margin-bottom: 50px;
-  font-family: Larsseit;
-  font-size: 48px;
-  line-height: 53px;
-  letter-spacing: -0.035em;
-  text-align: left;
-  color: #22356F; }
-
-.header__text {
-  margin-bottom: 64px;
-  max-width: 470px;
-  font-family: Larsseit;
-  font-size: 24px;
-  line-height: 42px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #22356F; }
-
-.header__wrapper {
-  display: flex; }
-
-.header__img {
-  max-width: 1126px;
-  height: 720px;
-  width: 100%;
-  object-fit: cover;
-  display: block; }
-
-.header__btn-box {
-  width: 338px;
-  display: flex;
-  justify-content: space-between; }
-
-.header__btn--colored {
-  background-color: #F9B640;
-  font-family: Larsseit;
-  font-size: 16px;
-  line-height: 23px;
-  letter-spacing: 0.1em;
-  text-align: left;
-  color: #fff;
-  border-radius: 1px;
-  -webkit-border-radius: 1px;
-  -moz-border-radius: 1px;
-  -ms-border-radius: 1px;
-  -o-border-radius: 1px; }
-
-.header__btn--transparent {
-  font-family: Larsseit;
-  font-size: 16px;
-  line-height: 23px;
-  letter-spacing: 0.1em;
-  text-align: left;
-  color: #F9B640; }
+.header {
+  background-color: #F4F9E2;
+  background-image: linear-gradient(90deg, #F4F9E2 65%, #fff 65%, #fff 65%, #fff 100%);
+  min-width: 100%;
+  min-height: 100vh; }
+  .header .container {
+    max-width: 1062px;
+    margin: 0 auto;
+    padding: 0 10px; }
+  .header__top {
+    padding: 28px 0 186px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .header__logo {
+    font-family: Larsseit;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    color: #62D0DF; }
+  .header__btn {
+    font-family: Larsseit;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center; }
+  .header__btn--top {
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 25px;
+    background-color: #62D0DF;
+    color: #fff;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px; }
+  .header__title {
+    max-width: 484px;
+    margin-bottom: 50px;
+    font-family: Larsseit;
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    color: #22356F; }
+  .header__text {
+    margin-bottom: 64px;
+    max-width: 470px;
+    font-family: Larsseit;
+    font-size: 24px;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #22356F; }
+  .header__wrapper {
+    display: flex; }
+  .header__img {
+    max-width: 1126px;
+    height: 720px;
+    width: 100%;
+    object-fit: cover;
+    display: block; }
+  .header__btn-box {
+    width: 338px;
+    display: flex;
+    justify-content: space-between; }
+  .header__btn--colored {
+    background-color: #F9B640;
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #fff;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px; }
+  .header__btn--transparent {
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #F9B640; }
 
 .menu__list {
   min-width: 234px;

@@ -385,6 +385,12 @@ body {
 }
 
 .header__logo {
+    font-family: Larsseit;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    text-align: left;
     color: #62D0DF;
 }
 
@@ -905,6 +911,7 @@ body {
 }
 
 .footer__text {
+    margin-bottom: 35px;
     font-family: Larsseit;
     font-size: 14px;
     line-height: 23px;
@@ -913,7 +920,22 @@ body {
     color: #22356F80;
 }
 
-.footer__contact {
+.footer__working {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 8px;
+    font-family: Larsseit;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.006em;
+    text-align: left;
+    color: #22356F80;
+}
+
+.footer__phone-link {
+    margin-bottom: 10px;
     font-family: Larsseit;
     font-size: 14px;
     line-height: 23px;
@@ -925,12 +947,11 @@ body {
 .footer__bottom {
     height: 80px;
     background-color: #62D0DF;
-}
-
-.footer__bottom .container {
-    max-width: 1062px;
-    margin: 0 auto;
-    padding: 0 10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 180px;
 }
 
 .footer__signature {
@@ -938,6 +959,5 @@ body {
     font-size: 14px;
     line-height: 11px;
     letter-spacing: -0.006em;
-    text-align: left;
     color: #FFF;
 }
