@@ -368,6 +368,13 @@ body {
     color: black;
 }
 
+.header {
+    background-color: #F4F9E2;
+    background-image: linear-gradient(90deg, #F4F9E2 65%, #fff 65%, #fff 65%, #fff 100%);
+    min-width: 100%;
+    min-height: 100vh;
+}
+
 .header .container {
     max-width: 1062px;
     margin: 0 auto;
@@ -375,7 +382,7 @@ body {
 }
 
 .header__top {
-    margin: 28px 0 186px;
+    padding: 28px 0 186px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;

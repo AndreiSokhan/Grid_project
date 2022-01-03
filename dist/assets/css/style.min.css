@@ -385,6 +385,15 @@ body {
     color: #22356F; }
   .header__wrapper {
     display: flex; }
+  .header__link {
+    margin-bottom: 50px;
+    font-family: Larsseit;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    color: #62D0DF; }
   .header__img {
     max-width: 1126px;
     height: 720px;
@@ -705,7 +714,7 @@ body {
 
 .ready__content {
   background-color: #22356F;
-  padding: 104px 0 42px 180px; }
+  padding: 100px 0 42px 180px; }
 
 .ready__link {
   margin-bottom: 200px;
@@ -742,6 +751,12 @@ body {
   letter-spacing: 0.1em;
   text-align: left;
   color: #62D0DF; }
+
+.ready__img {
+  height: 800px;
+  width: 100%;
+  object-fit: cover;
+  display: block; }
 
 .footer__top {
   display: flex; }

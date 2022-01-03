@@ -7,7 +7,7 @@
 
    &__content {
       background-color: #22356F;
-      padding: 104px 0 42px 180px;
+      padding: 100px 0 42px 180px;
    }
 
    &__link {
@@ -48,5 +48,12 @@
       letter-spacing: 0.1em;
       text-align: left;
       color: #62D0DF;
+   }
+
+   &__img {
+      height: 800px;
+      width: 100%;
+      object-fit: cover;
+      display: block;
    }
 }
